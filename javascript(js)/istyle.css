@@ -1,0 +1,25 @@
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: red;
+}
+.model
+{
+    display: none;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding:  30px;
+    border-radius: 10px;
+}
+
+.closee
+{
+    width: 100%;
+    position: relative;
+    left: 120px;
+}

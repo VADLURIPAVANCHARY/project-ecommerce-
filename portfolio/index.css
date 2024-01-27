@@ -1,0 +1,58 @@
+*{
+    padding: 2%;
+    margin: 5%;
+    box-sizing: border-box;
+}
+html{
+    font: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*hero section*/
+#hero{
+   
+    background-image: url(https://scontent.fhyd10-1.fna.fbcdn.net/v/t39.30808-6/415504661_3650168348643137_8438711982580730687_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Ux7tbBFb6CAAX-PP0V5&_nc_ht=scontent.fhyd10-1.fna&oh=00_AfCWoBl8eb3WAfAjCPu0RfInzWEAzzwOF_mu6v5mG-LvgA&oe=659A0106);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+
+}
+
+#hero ::after{
+    content: ;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    opacity: .7;
+    z-index: -1;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    color: aliceblue;
+
+}
+#hero.cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color:skyblue;
+    background-color: transparent;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease background-color;
+}
+/* end hero section*/
